@@ -54,7 +54,7 @@ def animate(i, xs1, ys1, xs2, ys2):
     ys2 = ys2[-50:]
     
     plt.subplots_adjust(bottom=0.30)
-    setSubPlot(ax1, xs1, ys1,'Magnetometer data over time','sensor readings','angle measure', fontsize=10,secondData=[xs1,ys2])
+    #setSubPlot(ax1, xs1, ys1,'Magnetometer data over time','sensor readings','angle measure', fontsize=10,secondData=[xs1,ys2])
     setSubPlot(ax2, xs2, ys2,'GPS data over time','sensor readings','angle measure', fontsize=10,secondData=[])
 
 if __name__=="__main__":
